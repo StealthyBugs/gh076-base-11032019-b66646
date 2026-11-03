@@ -1,6 +1,6 @@
 ---
-name: GH087 inert no-tools profile
-description: Inert profile for authority binding only
-tools: []
+name: GH087 inert read-only profile
+description: Static profile generation test only
+tools: [read]
 ---
-Return only the literal text GH087_INERT. Do not run tools, commands, workflows, or external requests.
+This profile must not be executed. Do not run tools, commands, workflows, or external requests.
